@@ -92,8 +92,8 @@ Open `run.sql` in MySQL Workbench and execute. The script drops any existing `Re
 
 A read-only Node.js + Express dashboard in `dashboard/` visualizes the schema. This dashboard contains stat cards, revenue and orders charts, expandable order line items, promotions, and a loyalty leaderboard. It exists to verify that the schema holds up under realistic analytical queries; it is not a customer-facing ordering app.
 
-1. Make sure the database is loaded (see Quick Start above).
-2. Install Node 18+ from [nodejs.org](https://nodejs.org).
+1. Install Node 18+ from [nodejs.org](https://nodejs.org).
+2. Make sure the database is loaded (see Quick Start above).
 3. From the `dashboard/` directory:
 
    ```bash
