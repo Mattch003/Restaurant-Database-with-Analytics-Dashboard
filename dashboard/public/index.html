@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Ordering System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🍽️ Restaurant Ordering System</h1>
+    <nav>
+      <button class="tab active" data-view="dashboard">Dashboard</button>
+      <button class="tab" data-view="restaurants">Restaurants</button>
+      <button class="tab" data-view="orders">Orders</button>
+      <button class="tab" data-view="best-sellers">Best Sellers</button>
+      <button class="tab" data-view="promotions">Promotions</button>
+      <button class="tab" data-view="loyalty">Loyalty</button>
+    </nav>
+  </header>
+
+  <main id="content">
+    <p class="loading">Loading...</p>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
